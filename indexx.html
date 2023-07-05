@@ -4,22 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <section>
-    <h1>Stay updated!</h1>
-    <p>join 60,000+ manegers recieving monthly updates on:</p>
-    <img src="image/icon-list.svg" alt="icone check"> Product discovery and building what matters<br>
-    <img src="image/icon-list.svg" alt="icone check"> Measuring to ensure updates are a success<br>
-    <img src="image/icon-list.svg" alt="icone check"> And much more!<br>
-    </section>
+    <main>
+        <img src="image/illustration-sign-up-mobile.svg" alt="">
+        <section>
+            <h1>Stay updated!</h1>
+            <p>Join 60,000+ manegers recieving monthly updates on:</p>
+            <p><span class="material-icons">check_circle</span>Product discovery and building what matters</p>
+            <p><span class="material-icons">check_circle</span>Measuring to ensure updates are a success</p>
+            <p><span class="material-icons">check_circle</span>And much more!</p>
+        
 
-    <form action="longin.php" method="post" autocomplete="on">
-        <div class="diviinput">
-            
-
-        </div>
-    </form>
+        <form action="longin.php" method="post" autocomplete="on">
+            <div class="diviinput">
+                <label for="iemail" id="labelemail">Email Address</label>
+                <input type="email" name="email" id="iemail" required autocomplete="email" placeholder="Digite seu email">
+                <label for="isubmit"></label>
+                <input type="submit" name="submit" id="isubmit">
+            </div>
+        </form>
+        </section>
+    </main>
 </body>
 </html>
