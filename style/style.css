@@ -11,10 +11,11 @@
 body{
     background-color: rgb(46, 46, 46);
     font-size: 16px;
+    color: hsl(234, 29%, 20%);
 }
 
 h1{
-    color: hsl(234, 29%, 20%);;
+    color: hsl(234, 29%, 20%);
     padding-bottom: 15px;
     
     font-size: 2.3em;
@@ -24,6 +25,7 @@ main {
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
     width: 375px;
+    height: 100vh;
     align-self: center;
     box-sizing: border-box;
     
@@ -56,16 +58,26 @@ span#lasticon {
 }
 
 label#labelemail {
-    
+    font-size: 0.9em;
 }
 
 input#iemail {
     width: 100%;
     box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid rgb(185, 184, 184);
+    padding: 15px;
+    
 }
 
 input#isubmit {
     width: 100%;
     box-sizing: border-box;
-    margin-top: 10px;
+    margin-top: 20px;
+    font-size: 1.0em;
+    padding: 20px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
 }
