@@ -29,9 +29,13 @@ main {
 }
 
 div#divimg {
-    background: url(../image/illustration-sign-up-mobile.svg);
-    height: 200px;
+    background: url(../image/illustration-sign-up-mobile.svg) no-repeat;
+    height: 300px;
     width: 100%;
+}
+
+div#formulario {
+    padding: 7px;
 }
 
 section {
@@ -88,4 +92,11 @@ input#isubmit {
     border-style: none;
     background-color: hsl(234, 29%, 20%);
     color: white;
+    transition: .3s;
+    cursor: pointer;
+}
+
+input#isubmit:hover {
+    box-shadow: 0px 0px 10px hsl(4, 100%, 67%);
+    background-color: hsl(4, 100%, 67%);
 }

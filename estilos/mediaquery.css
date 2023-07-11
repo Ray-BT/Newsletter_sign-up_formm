@@ -12,7 +12,7 @@ High-res laptop or desktop: 1920 x 1080.
 */
 
 @media screen and (min-width: 768px) and (max-width: 1024px) { /*TABLET*/
-    main {
+    /*main {
         margin: 0 auto;
         background-color: rgb(255, 255, 255);
         width: 500px;
@@ -20,7 +20,7 @@ High-res laptop or desktop: 1920 x 1080.
         align-self: center;
         box-sizing: border-box;
         
-    }
+    }*/
 }
 
 
@@ -41,10 +41,10 @@ High-res laptop or desktop: 1920 x 1080.
         width: 50%;
         height: 100%;
         padding: 10px;
-        border-radius: 10px;
+        border-radius: 5px;
         
         box-sizing: border-box;
-        background-size: contain;
+        background-size: cover;
         display: block
     }
 
@@ -52,6 +52,7 @@ High-res laptop or desktop: 1920 x 1080.
 
     div#formulario {
         width: 50%;
+        padding: 10px;
         
     }
 
@@ -62,9 +63,36 @@ High-res laptop or desktop: 1920 x 1080.
         height: 65%;
         
         align-self: center;
-        border-radius: 10px;
+        border-radius: 20px;
         box-sizing: border-box;
-        width: 60%;
+        width: 60vw;
         
     }
+
+    div.diviinput {
+       box-sizing: border-box;
+    }
+
+    input#iemail {
+        width: 96%;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border: 1px solid rgb(185, 184, 184);
+        padding: 15px;
+        
+    }
+    
+    input#isubmit {
+        width: 96%;
+        box-sizing: border-box;
+        margin-top: 20px;
+        font-size: 1.0em;
+        padding: 20px;
+        border-radius: 5px;
+        border-style: none;
+        background-color: hsl(234, 29%, 20%);
+        color: white;
+    }
+
+    
 }
