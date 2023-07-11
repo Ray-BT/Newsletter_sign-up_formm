@@ -31,17 +31,16 @@ High-res laptop or desktop: 1920 x 1080.
     }
 
     main {
-        
+        position: relative;
         
     }
 
     div#divimg {
-        background: url(../image/illustration-sign-up-desktop.svg) no-repeat;
+        background: url(../image/illustration-sign-up-desktop.svg) no-repeat center center;
         float: right;
         width: 50%;
         height: 100%;
-        padding: 10px;
-        border-radius: 5px;
+        border-radius: 20px;
         
         box-sizing: border-box;
         background-size: cover;
@@ -52,21 +51,24 @@ High-res laptop or desktop: 1920 x 1080.
 
     div#formulario {
         width: 50%;
-        padding: 10px;
-        
+        padding: 30px;
+        align-content: center;
     }
 
     section {
-        margin: 0 auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        
         background-color: rgb(255, 255, 255);
         width: 1024px;
         height: 65%;
         
-        align-self: center;
+        
         border-radius: 20px;
         box-sizing: border-box;
         width: 60vw;
-        
+        transform: translate( -50%, -50%);
     }
 
     div.diviinput {
