@@ -1,0 +1,81 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+   
+}
+
+body{
+    background-color: hsl(235, 20%, 21%);
+    font-size: 16px;
+    color: hsl(234, 29%, 20%);
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+       
+}
+
+h1{
+    color: hsl(234, 29%, 20%);
+    padding-bottom: 15px;
+    
+    font-size: 2.3em;
+}
+
+div#divicon {
+    align-content: center;
+}
+
+span.material-icons {
+    color: hsl(4, 100%, 67%);
+    font-size: 3.3em;
+    padding-bottom: 15px;
+    
+}
+
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    width: 405px;
+    height: 50vh;
+    align-self: center;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(31, 31, 31, 0.308);
+    transform: translate( -50%, -50%);
+}
+
+section > p {
+    font-size: 0.9em;
+    padding-bottom: 15px;
+}
+
+input#isubmit {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 20px;
+    font-size: 0.9em;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    transition: .3s;
+    cursor: pointer;
+}
+
+input#isubmit:hover {
+    box-shadow: 0px 0px 10px hsl(4, 100%, 67%);
+    background-color: hsl(4, 100%, 67%);
+}

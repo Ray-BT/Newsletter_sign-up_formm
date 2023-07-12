@@ -69,7 +69,8 @@ High-res laptop or desktop: 1920 x 1080.
         box-sizing: border-box;
         width: 60vw;
         transform: translate( -50%, -50%);
-    }
+        transition: width .3, height .3;
+        transition-timing-function: ease;
 
     div.diviinput {
        box-sizing: border-box;
@@ -97,4 +98,5 @@ High-res laptop or desktop: 1920 x 1080.
     }
 
     
+}
 }

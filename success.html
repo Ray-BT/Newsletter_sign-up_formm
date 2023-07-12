@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanks for subscribing</title>
+    <link rel="stylesheet" href="style/stylesuccesspage.css" media="all">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <main>
+    <section>
+        <div id="divicon">
+            <p><span class="material-icons" id="firsticon">check_circle
+        </div>
+        <h1>Thanks for subscribing!</h1>
+        <p>A confirmation email has been sent to ash@loremcompany.com. Please open it and click the button inside to confirm yout subscription.</p>
+      <form id= "iform" action="index.html" method="post" autocomplete="on">
+        <div class="diviinput">
+            <label for="isubmit"></label>
+            <input type="submit" name="submit" id="isubmit" value="Dismiss menssage">
+        </div>  
+    </section>
+
+    <script>
+        document.getElementById("iform").onsubmit = function() {
+            window.location.href = "index.html"
+
+            return false
+        }
+    </script>
+    
+</main>
+</body>
+</html>
